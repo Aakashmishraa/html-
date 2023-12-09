@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL PORTFOLIO</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">      <!-- cdn ( content delibery network ) helps in connecting with paas wala server-->
+</head>
+<body>
+    <div class="main_box">
+        <input type="checkbox" id="check">
+        <div class="btn_one">
+            <label for="check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <div class="sidebar_menu">
+            <div class="logo">
+                <a href="#">Digital Portfolio</a>
+            
+            <div class="btn_two1">
+                <label for="check">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+            </div>
+            
+        </div>
+            <div class="menu">
+            <ul>
+                <li><a href="http://127.0.0.1:5501/html.html"><i class="fa-solid fa-house"></i>                       <!--Kisi bhi cheez ko link bnane ke liye (<a href tag and attribute) ka use karte hein-->
+                    Dashboard</a></li>
+                    <li><a href="http://127.0.0.1:5501/About%20me/AboutMe.html"><i class="fa-solid fa-user"></i>
+                    About Me</a></li>
+                 <li><a href="http://127.0.0.1:5501/projects/project.html"><i class="fa-solid fa-diagram-project"></i>
+                    Projects</a></li>
+                 <li><a href="http://127.0.0.1:5501/certifications/certification.html"><i class="fa-solid fa-certificate"></i>
+                    Certifications</a></li>
+                 <li><a href="http://127.0.0.1:5501/contact/Contact.html"><i class="fa-solid fa-address-card"></i>
+                    Contact</a></li>
+                 <li><a href="http://127.0.0.1:5501/contact/Contact.html"><i class="fa-solid fa-comments"></i>
+                    Feedback</a></li>
+            </ul>
+        </div>
+        <div class="social_media">
+            <a href="https://mail.google.com/mail"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/aakash-mishra-246804291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/igaakash5"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://whatsapp.com/dl/"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
